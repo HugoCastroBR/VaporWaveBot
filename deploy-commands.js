@@ -30,6 +30,14 @@ const commands = [
   {
     name: 'countries',
     description: 'Lista todos os países do mundo.',
+    options: [
+      {
+        name: 'search',
+        description: 'Busca por um país específico.',
+        type: 3,
+        required: false,
+      },
+    ],
   }
 ];
 

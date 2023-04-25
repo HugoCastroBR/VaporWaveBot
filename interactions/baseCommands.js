@@ -15,7 +15,7 @@ const rollADice = (interaction) => {
 }
 
 // Other Commands
-import ibge from './ibge.js';
+import countries from './countries.js';
 
 //
 
@@ -35,7 +35,7 @@ const baseCommands = (interaction) => {
   }
 
   if (interaction.commandName === 'countries') {
-    return ibge.getAllCountries(interaction);
+    return countries.getAllCountries(interaction);
   }
 
 }
